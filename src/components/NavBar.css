@@ -1,0 +1,36 @@
+
+:root {
+  --primary-color-dark: #202E44;
+  --primary-color-light: #A9BBC8;
+  --neutral-color-dark: #C7BCAB;
+  --neutral-color-light: #F2F2EB;
+  --accent-color: #88734C;
+
+  --text-color: #333333;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary-color-dark);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: var(--neutral-color-light);
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .links a:hover {
+    color: var(--neutral-color-dark);
+  }
