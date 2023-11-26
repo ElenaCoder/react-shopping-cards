@@ -1,0 +1,48 @@
+.product {
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for a nice effect */
+    transition: box-shadow 0.3s ease-in; /* Smooth transition for the box shadow on hover */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.product .description {
+    text-align: center;
+    padding: 10px;
+}
+
+.description p {
+    margin: 5px;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjusted box shadow on hover for a lifted effect */
+    cursor: pointer;
+}
+
+.addToCartBtn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px 0 15px;
+}
+
+.addToCartBtn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
