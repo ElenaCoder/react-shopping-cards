@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { PRODUCTS } from '../../products';
+import { PRODUCTS } from '../../../data/products';
 import { ShopContext } from '../../context/ShopContext';
 import CartItem from './CartItem';
 import './Cart.css';
@@ -30,7 +30,6 @@ const Cart = () => {
                     <button onClick={() => navigate('/')}>
                         Continue Shopping
                     </button>
-                    <button> Checkout</button>
                 </div>
             ) : (
                 <h2>Your Cart is Empty</h2>
