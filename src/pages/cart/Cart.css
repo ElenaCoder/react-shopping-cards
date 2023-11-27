@@ -4,3 +4,22 @@
     justify-content: center;
     align-items: center;
 }
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.checkout p {
+    font-size: 20px;
+}
+
+.checkout p b {
+    font-size: 24px;
+}
