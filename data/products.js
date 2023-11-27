@@ -47,13 +47,13 @@ export const PRODUCTS = [
     },
     {
         id: 7,
-        productName: 'URBAN EXPLORER JACKET',
+        productName: 'Urban Explorer Jacket',
         price: 79.0,
         productImage: product7,
     },
     {
         id: 8,
-        productName: 'VINTAGE EMBROIDERED HAT',
+        productName: 'Vintage Embroidered Hat',
         price: 29.0,
         productImage: product8,
     },
