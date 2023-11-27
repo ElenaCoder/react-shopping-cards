@@ -20,6 +20,10 @@
     padding: 20px;
 }
 
+.description p:nth-child(2) {
+    font-size: 20px;
+}
+
 .countHandler input {
     width: 40px;
     text-align: center;
