@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { createContext, useState } from 'react';
-import { PRODUCTS } from '../products';
+import { PRODUCTS } from '../../data/products';
 
 export const ShopContext = createContext(null);
 
