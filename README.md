@@ -59,7 +59,7 @@ Welcome to the **react-shopping-cards** project! The primary aim of this project
 
     `npm run dev`
 
-2. This will start the development server, and you can view the React application in your web browser at http://localhost:5173.
+2. This will start the development server, and you can view the React application in your web browser at http://localhost:5173/react-shopping-cards.
 
 ## Deployment
 
