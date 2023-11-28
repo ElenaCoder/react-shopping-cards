@@ -9,7 +9,7 @@ function App() {
     return (
         <div className='App'>
             <ShopContextProvider>
-                <Router>
+                <Router basename="/react-shopping-cards">
                     <NavBar />
                     <Routes>
                         <Route path='/' element={<Shop />} />
